@@ -38,17 +38,7 @@ function typeEqual() {
             result = operand1 * operand2;
             break;
     }
-    operand1 = result;
-    operand2 = '';
-    if (operator == '+') {
-        var result = operand1 + operand2;
 
-    } else {
-        if (operator == '-') {
-            var result = operand1 - operand2;
-
-        }
-    }
     document.getElementById('display').innerText = result;
 }
 
